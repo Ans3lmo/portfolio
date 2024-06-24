@@ -1,4 +1,4 @@
-# Portolio | Matheus S. Anselmo
+# Portfolio | Matheus S. Anselmo
 
 Este é meu primeiro projeto de maior complexidade utilizando o framework *React.JS*. Veja o resultado clicando na badge abaixo!
 
