@@ -1,11 +1,12 @@
-import React from "react";
-import "./navbar.module.css"
+import React from 'react';
+import  './navbar.css'
 
 export class Navbar extends React.Component {
 	render(){
 		return (
 			<header>
 				<nav id="navbar">
+					<a href="/">Logo</a>
 					<ul className="navList">
 						<li>
 							<a href="/">Home</a>

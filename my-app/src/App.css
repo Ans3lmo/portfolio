@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252422;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+  color: #90f208;
+}
+
+a, ul, li {
+  text-decoration: none;
+  list-style-type: none;
+}

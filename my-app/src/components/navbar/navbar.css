@@ -1,0 +1,14 @@
+header {
+  max-width: 100%;
+  background-color: transparent;
+  backdrop-filter: blur(7px);
+  height: 90px;
+  position: sticky;
+  z-index: 1000;
+}
+
+header #navbar {
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
