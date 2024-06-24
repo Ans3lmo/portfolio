@@ -6,6 +6,6 @@ Este é meu primeiro projeto de maior complexidade utilizando o framework *React
 
 ### Last Deployment
 
-![deploy](https://github.com/ans3lmo/portfolio/actions/workflows/pages-build-deployment/badge.svg)
+![deploy](https://github.com/Ans3lmo/portfolio/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 Acompanhe o status do último deploy realizado acima!
