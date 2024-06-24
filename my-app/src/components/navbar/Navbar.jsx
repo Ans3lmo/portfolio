@@ -6,7 +6,7 @@ export class Navbar extends React.Component {
 		return (
 			<header>
 				<nav id="navbar">
-					<a href="/">Logo</a>
+					<a className='logo' href="/">Logo</a>
 					<ul className="navList">
 						<li>
 							<a href="/">Home</a>

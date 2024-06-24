@@ -1,14 +1,34 @@
 header {
   max-width: 100%;
-  background-color: transparent;
-  backdrop-filter: blur(7px);
-  height: 90px;
+  top: 0;
   position: sticky;
   z-index: 1000;
+  background-color: transparent;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
+  height: 90px;
 }
 
 header #navbar {
   padding: 2rem 5rem;
   display: flex;
   justify-content: space-between;
+
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+header #navbar .navList {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.2rem;
+}
+header #navbar .logo{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+header #navbar .navList li a {
+  padding-bottom: 0.8rem;
+  border-bottom: transparent solid 2px;
+  font-size: 2rem;
 }
