@@ -40,12 +40,12 @@ header #navbar .navList {
 }
 header #navbar .navList li a {
   border-bottom: transparent solid 2px;
-  padding: 5px;
+  padding-bottom: 7px;
   color: #f3f1ff;
   cursor: pointer;
-  transition: border-bottom 0.2s ease-in;
+  transition: border 0.1s ease-in;
 }
 header #navbar .navList a:hover {
   border-bottom: #90f208 solid 2px;
-  transition: border-bottom 0.2s ease-in;
+  transition: border 0.1s ease-in;
 }
