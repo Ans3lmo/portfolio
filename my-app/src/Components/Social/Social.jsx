@@ -6,7 +6,7 @@ import { MessageCard } from '../MessageCard/MessageCard'; // Card de mensagem
 import iconGitHub from '../../assets/icons/github.png';
 import iconLinkedin from '../../assets/icons/linkedin.png';
 import iconEmail from '../../assets/icons/email.png';
-import iconWhatsapp from '../../assets/icons/whatsapp.png';
+import iconMedium from '../../assets/icons/medium.png';
 
 // Componente dedcado à importação dos Compts. relacionados ao contato e redes sociais
 
@@ -22,22 +22,22 @@ export class Social extends React.Component {
         <div id="socialMedia">
           <h2>Conecte-se comigo</h2>
           <div className="iconBox">
+          <IconCont 
+              iconLink={"https://www.linkedin.com/in/matheus-souza-anselmo-aba10a215"}
+              icon={iconLinkedin}  
+              iconTitle={"LinkedIn"} />
             <IconCont 
               iconLink={"https://github.com/Ans3lmo"} 
               icon={iconGitHub} 
               iconTitle={"GitHub"} />
             <IconCont 
               iconLink={"https://"}
-              icon={iconLinkedin}  
-              iconTitle={"LinkedIn"} />
+              icon={iconMedium} 
+              iconTitle={""} />
             <IconCont 
               iconLink={"https://"}
               icon={iconEmail} 
               iconTitle={"E-mail"} />
-            <IconCont 
-              iconLink={"https://"}
-              icon={iconWhatsapp} 
-              iconTitle={"Whatsapp"} />
           </div>
         </div>
       </div>
