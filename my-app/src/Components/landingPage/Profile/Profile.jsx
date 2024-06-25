@@ -1,6 +1,6 @@
 import React from 'react';
 import './profile.css';
-import typingBro from '../../assets/images/typing-bro.png';
+import typingBro from '../../../assets/images/typing-bro.png';
 
 export class Profile extends React.Component {
   render() {
