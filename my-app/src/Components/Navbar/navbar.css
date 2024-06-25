@@ -8,14 +8,14 @@ header {
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.05);
   z-index: 1000;
 }
-header #navBar {
+header #navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 90px;
   padding: 2rem 7rem;
 }
-header #navBar .logo {
+header #navbar .logo {
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -23,14 +23,14 @@ header #navBar .logo {
   border-left: transparent solid 2px;
   transition: 0.2s ease-in;
 }
-header #navBar .logo:hover {
+header #navbar .logo:hover {
   color: #90f208;
   padding-left: 0.7rem;
   border-left: #f3f1ff solid 2px;
   transition: 0.2s ease-in;
 }
 
-header #navBar .navList {
+header #navbar .navList {
   font-size: 1.2rem;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
@@ -38,14 +38,14 @@ header #navBar .navList {
   justify-content: space-around;
   gap: 1rem;
 }
-header #navBar .navList li a {
+header #navbar .navList li a {
   border-bottom: transparent solid 2px;
   padding: 5px;
   color: #f3f1ff;
   cursor: pointer;
   transition: border-bottom 0.2s ease-in;
 }
-header #navBar .navList a:hover {
+header #navbar .navList a:hover {
   border-bottom: #90f208 solid 2px;
   transition: border-bottom 0.2s ease-in;
 }

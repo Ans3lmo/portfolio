@@ -2,7 +2,7 @@ import React from 'react';
 import  './navbar.css';
 
 export class Navbar extends React.Component {
-	render(){
+	render() {
 		return (
 			<header>
 				<nav id="navbar">
