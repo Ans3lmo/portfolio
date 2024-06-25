@@ -8,18 +8,18 @@
 #iconContainer img {
   height: 50px;
   border-radius: 50%;
-  padding: 2px;
+  border: #f3f1ee solid 2px;
   background-color: #f3f1ee;
   cursor: pointer;
-  transition: background-color 0.2s ease-out;
+  transition: border 0.2s ease-out;
 }
 #iconContainer img:hover {
-  background-color: #90f208;
-  transition: background-color 0.2s ease-out;
+  border: #90f208 solid 2px;
+  transition: border 0.2s ease-out;
 }
 #iconContainer:hover img {
-  background-color: #90f208;
-  transition: background-color 0.2s ease-out;
+  border: #90f208 solid 2px;
+  transition: border 0.2s ease-out;
 }
 
 #iconContainer .iconText {
@@ -43,7 +43,7 @@
 }
 #iconContainer:hover .iconText {
   background-color: transparent;
-  border: #90f208 solid 1px;
+  border: #90f208 solid 2px;
   color: #f3f1ee;
   transform: translateY(-50%), scaleX(1);
   opacity: 1;

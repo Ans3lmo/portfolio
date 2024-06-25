@@ -3,12 +3,13 @@ import './social.css';
 import { IconCont } from '../IconContainer/IconCont'; // Conteiner dos ícones
 import { MessageCard } from '../MessageCard/MessageCard'; // Card de mensagem
 
+// Ícones usados neste componente
 import iconGitHub from '../../assets/icons/github.png';
 import iconLinkedin from '../../assets/icons/linkedin.png';
 import iconEmail from '../../assets/icons/email.png';
 import iconMedium from '../../assets/icons/medium.png';
 
-// Componente dedcado à importação dos Compts. relacionados ao contato e redes sociais
+// Componente pai dedicado à importação dos Compts. relacionados ao contato e redes sociais (ícones e caixa de mensagem)
 
 export class Social extends React.Component {
   render() {
@@ -31,9 +32,9 @@ export class Social extends React.Component {
               icon={iconGitHub} 
               iconTitle={"GitHub"} />
             <IconCont 
-              iconLink={"https://"}
+              iconLink={"https://medium.com/@Ans3lmo"}
               icon={iconMedium} 
-              iconTitle={""} />
+              iconTitle={"Medium"} />
             <IconCont 
               iconLink={"https://"}
               icon={iconEmail} 

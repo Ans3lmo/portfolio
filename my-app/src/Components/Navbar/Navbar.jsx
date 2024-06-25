@@ -6,13 +6,13 @@ export class Navbar extends React.Component {
 		return (
 			<header>
 				<nav id="navbar">
-					<a className='logo' href="/">Blog</a>
+					<a className='logo' href="https://medium.com/@Ans3lmo">Blog</a>
 					<ul className="navList">
 						<li>
 							<a href="/">Home</a>
 						</li>
 						<li>
-							<a href="/">About Me</a>
+							<a href="/">About</a>
 						</li>
 						<li>
 							<a href="/">Projects</a>
