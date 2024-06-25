@@ -1,0 +1,13 @@
+/* Configurações do footer */
+footer {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 0 1rem 0;
+}
+footer h1 {
+  color: #f3f1ff;
+  font-size: 1.05rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}

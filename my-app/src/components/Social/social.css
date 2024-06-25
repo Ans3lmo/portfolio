@@ -1,0 +1,18 @@
+#socialComponent {
+  margin: 3rem 5rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+#socialComponent hr {
+  transform: rotate(180deg);
+}
+
+#socialMedia {
+  max-width: 50%;
+}
+#socialMedia .iconBox {
+  display: grid;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}

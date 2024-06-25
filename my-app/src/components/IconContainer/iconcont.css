@@ -1,0 +1,50 @@
+#iconContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+#iconContainer img {
+  height: 50px;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: #f3f1ee;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+}
+#iconContainer img:hover {
+  background-color: #90f208;
+  transition: background-color 0.2s ease-out;
+}
+#iconContainer:hover img {
+  background-color: #90f208;
+  transition: background-color 0.2s ease-out;
+}
+
+#iconContainer .iconText {
+  transform: translateY(-50%), scaleX(0);
+  transform-origin: left;
+  background-color: #252422;
+  border-radius: 2rem;
+  padding: 10px;
+
+  cursor: pointer;
+  color: #252422;
+  font-size: 1.2rem;
+  font-weight: 400;
+
+  white-space: nowrap;
+  z-index: 1;
+  opacity: 0;
+  transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+  width: auto;
+  text-align: center;
+}
+#iconContainer:hover .iconText {
+  background-color: transparent;
+  border: #90f208 solid 1px;
+  color: #f3f1ee;
+  transform: translateY(-50%), scaleX(1);
+  opacity: 1;
+}
