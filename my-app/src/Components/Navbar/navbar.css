@@ -1,34 +1,51 @@
+/* Header configurations */
 header {
-  max-width: 100%;
-  top: 0;
   position: sticky;
-  z-index: 1000;
+  top: 0;
+  max-width: 100%;
   background-color: transparent;
-  backdrop-filter: blur(7px);
-  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
-  height: 90px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
 }
-
-header #navbar {
-  padding: 2rem 5rem;
+header #navBar {
   display: flex;
   justify-content: space-between;
-
-  color: #fff;
-  font-family: 'Inter', sans-serif;
+  align-items: center;
+  height: 90px;
+  padding: 2rem 7rem;
 }
-header #navbar .navList {
+header #navBar .logo {
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  border-left: transparent solid 2px;
+  transition: 0.2s ease-in;
+}
+header #navBar .logo:hover {
+  color: #90f208;
+  padding-left: 0.7rem;
+  border-left: #f3f1ff solid 2px;
+  transition: 0.2s ease-in;
+}
+
+header #navBar .navList {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: space-around;
-  gap: 1.2rem;
+  gap: 1rem;
 }
-header #navbar .logo{
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-header #navbar .navList li a {
-  padding-bottom: 0.8rem;
+header #navBar .navList li a {
   border-bottom: transparent solid 2px;
-  font-size: 2rem;
+  padding: 5px;
+  color: #f3f1ff;
+  cursor: pointer;
+  transition: border-bottom 0.2s ease-in;
+}
+header #navBar .navList a:hover {
+  border-bottom: #90f208 solid 2px;
+  transition: border-bottom 0.2s ease-in;
 }
