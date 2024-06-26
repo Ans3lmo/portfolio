@@ -1,7 +1,7 @@
 import React from 'react';
 import  './navbar.css';
 
-import { App } from '../../App';
+import { Home } from '../Home/Home';
 import { About } from '../About/About';
 
 export class Navbar extends React.Component {
@@ -12,10 +12,10 @@ export class Navbar extends React.Component {
 					<a className='logo' href="https://medium.com/@Ans3lmo">Blog</a>
 					<ul className="navList">
 						<li>
-							<a href={<App />}>Home</a>
+							<a href={this.render(<Home />)}>Home</a>
 						</li>
 						<li>
-							<a href={<About />}>About</a>
+							<a href={this.render(<About />)}>About</a>
 						</li>
 						<li>
 							<a href="/">Projects</a>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './social.css';
-import { IconCont } from '../IconContainer/IconCont'; // Conteiner dos ícones
-import { MessageCard } from '../MessageCard/MessageCard'; // Card de mensagem
+import { IconCont } from './IconContainer/IconCont'; // Conteiner dos ícones
+import { MessageCard } from './MessageCard/MessageCard'; // Card de mensagem
 
 // Ícones usados neste componente
 import iconGitHub from '../../../assets/icons/github.png';
