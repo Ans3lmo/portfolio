@@ -5,7 +5,7 @@ import { MessageCard } from '../MessageCard/MessageCard'; // Card de mensagem
 
 // Ícones usados neste componente
 import iconGitHub from '../../../assets/icons/github.png';
-import iconLinkedin from '../../../../assets/icons/linkedin.png';
+import iconLinkedin from '../../../assets/icons/linkedin.png';
 import iconEmail from '../../../assets/icons/email.png';
 import iconMedium from '../../../assets/icons/medium.png';
 
