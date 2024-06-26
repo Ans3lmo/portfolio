@@ -1,6 +1,9 @@
 import React from 'react';
 import  './navbar.css';
 
+import { App } from '../../App';
+import { About } from '../About/About';
+
 export class Navbar extends React.Component {
 	render() {
 		return (
@@ -9,10 +12,10 @@ export class Navbar extends React.Component {
 					<a className='logo' href="https://medium.com/@Ans3lmo">Blog</a>
 					<ul className="navList">
 						<li>
-							<a href="/">Home</a>
+							<a href={<App />}>Home</a>
 						</li>
 						<li>
-							<a href="/">About</a>
+							<a href={<About />}>About</a>
 						</li>
 						<li>
 							<a href="/">Projects</a>

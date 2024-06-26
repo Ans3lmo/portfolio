@@ -1,0 +1,21 @@
+/* 
+  Configuração dos breakpoints da página:
+
+  - A configuração padrão da página é usar 100% da tela
+  - Os breakpoints são aplicados quando a tela for menor que 1279px
+
+  Cada componente tem sua própria estrutura e configuração de breakpoints, consulte os arquivos do componente e veja elas.
+
+*/
+
+/* Breakpoint 1: 1024px - 1279px */
+@media all and (min-width: 1024px) and (max-width: 1279px) {}
+
+/* Breakpoint 2: 768px - 1024px */
+@media all and (min-width: 768px) and (max-width: 1024px) {}
+
+/* Breakpoint 3: 480px - 768px*/
+@media all and (min-width: 480px) and (max-width: 768px) {}
+
+/* Breakpoint 4: < 480px */
+@media all and (max-width: 480px) {}
