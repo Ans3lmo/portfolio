@@ -12,10 +12,10 @@ export class Navbar extends React.Component {
 					<a className='logo' href="https://medium.com/@Ans3lmo">Blog</a>
 					<ul className="navList">
 						<li>
-							<a href={this.render(<Home />)}>Home</a>
+							<a href={<Home />}>Home</a>
 						</li>
 						<li>
-							<a href={this.render(<About />)}>About</a>
+							<a href={<About />}>About</a>
 						</li>
 						<li>
 							<a href="/">Projects</a>

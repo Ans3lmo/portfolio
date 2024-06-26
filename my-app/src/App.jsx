@@ -8,11 +8,7 @@ export function App() {
   return (
     <>
       <Navbar />
-
-        <div>
-          <Home />
-        </div>
-
+      <Home />
       <Footer />
     </>
   );
