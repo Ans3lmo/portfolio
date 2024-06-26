@@ -2,7 +2,7 @@ import React from 'react';
 import  './navbar.css';
 
 import { Home } from '../Home/Home';
-import { About } from '../About/About';
+import { Curriculo } from '../Curriculo/Curriculo';
 
 export class Navbar extends React.Component {
 	render() {
@@ -15,13 +15,13 @@ export class Navbar extends React.Component {
 							<a href={<Home />}>Home</a>
 						</li>
 						<li>
-							<a href={<About />}>About</a>
+							<a href={<Curriculo />}>Curriculo</a>
 						</li>
 						<li>
-							<a href="/">Projects</a>
+							<a href="/">Contato</a>
 						</li>
 						<li>
-							<a href="/">Contact</a>
+							<a href="/">Projetos</a>
 						</li>
 					</ul>
 				</nav>

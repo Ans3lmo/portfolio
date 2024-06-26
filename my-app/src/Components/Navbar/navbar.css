@@ -36,7 +36,7 @@ header #navbar .navList {
   font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: space-around;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 header #navbar .navList li a {
   border-bottom: transparent solid 2px;

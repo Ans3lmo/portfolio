@@ -1,15 +1,15 @@
 import React from "react";
-import './about.css';
+import './curriculo.css';
 
 import { Navbar } from "../Navbar/Navbar";
 import { Footer } from "../Footer/Footer";
 
-export class About extends React.Component {
+export class Curriculo extends React.Component {
   render() {
     return (
       <>
         <Navbar />
-        <h1>About</h1>
+        <h1>Minhas competências</h1>
         <Footer />
       </>
     )
